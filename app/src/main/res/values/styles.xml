@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="good_mornin">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#192126</item>
+    </style>
+
+    <style name="ria">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#192126</item>
+    </style>
+
+    <style name="active_work">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="build_bigge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="continue_">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#FEFFBB</item>
+    </style>
+
+    <style name="enhance_you">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="accuracy">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="reps">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="workout_dur">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="calories_bu">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="some_id">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="reps_id">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="hours">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="calories_id">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="people_trac">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="why_haven_t">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="recommended">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="toned_arm">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="recommend_text2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="categories">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="progressPercent">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="android:fontFamily">@font/poppins_500</item>
+    </style>
+
+    <style name="CategoryName">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="noOfExercise">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingTop">1.5dp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="fontFamily">@font/poppins_500</item>
+    </style>
+
+    <style name="see_all">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#BBBE15</item>
+    </style>
+
+
+</resources>

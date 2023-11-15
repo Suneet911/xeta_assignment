@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Xeta Assignment</string>
+    <string name="good_mornin"> Good Morning \uD83D\uDD25 </string>
+    <string name="ria"> RIA </string>
+    <string name="active_work"> Active Workout Plan </string>
+
+    <string name="build_bigge">Build Bigger Biceps, Unleash Your Arm Power</string>
+    <string name="continue_">CONTINUE</string>
+    <string name="enhance_you">Enhance your journey with AI tracker</string>
+
+    <string name="accuracy">Accuracy </string>
+    <string name="reps">Reps</string>
+    <string name="workout_dur">Workout Duration</string>
+    <string name="calories_bu">Calories Burn</string>
+
+    <string name="some_id">85%</string>
+    <string name="reps_id">15</string>
+    <string name="hours">2 hours</string>
+    <string name="calories_id">850</string>
+    <string name="people_trac">200+ people tracked their fitness</string>
+    <string name="why_haven_t">Why haven\'t you joined them yet? TRY NOW</string>
+    <string name="recommended">Recommended Plan</string>
+    <string name="toned_arm">TONED ARM</string>
+    <string name="recommend_text2">Advanced</string>
+    <string name="categories">Categories</string>
+    <string name="progressPercent">20%</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="categoryName">BICEPS</string>
+    <string name="noOfExercise">4 Exercise</string>
+    <string name="see_all">See All</string>
+
+
+</resources>

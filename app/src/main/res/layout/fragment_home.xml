@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/mainViewBgColor"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:fadeScrollbars="false"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/mainView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/textColor1"
+                android:id="@+id/good_mornin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="60.34dp"
+                android:fontFamily="@font/poppins_500"
+                android:gravity="top"
+                android:text="@string/good_mornin"
+                android:textAppearance="@style/good_mornin"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                style="@style/textColor1"
+                android:id="@+id/ria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/poppins_500"
+                android:gravity="top"
+                android:text="@string/ria"
+                android:textAppearance="@style/ria"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/good_mornin" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ellipse_31"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="296dp"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="34dp"
+                android:elevation="4dp"
+                app:cardCornerRadius="25dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ellipse_bg" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                style="@style/backgroundColor"
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="81dp"
+                android:background="@drawable/searchview_shape"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="1dp"
+                app:iconifiedByDefault="false"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    style="@style/backgroundColor"
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="11dp"
+                    android:src="@drawable/ic_camera" />
+
+                <androidx.appcompat.widget.SearchView
+                    style="@style/backgroundColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="35dp"
+                    android:fontFamily="@font/poppins_500"
+                    android:includeFontPadding="false"
+                    android:padding="0dp"
+                    android:theme="@style/AppSearchView"
+                    app:iconifiedByDefault="false"
+                    app:queryBackground="@android:color/transparent"
+                    app:queryHint="Search Exercise"
+                    app:searchIcon="@null" />
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginEnd="11dp"
+                    android:src="@drawable/ic_magnifing_glass" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                style="@style/textColor1"
+                android:id="@+id/active_work"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="138dp"
+                android:fontFamily="@font/poppins_500"
+                android:gravity="top"
+                android:text="@string/active_work"
+                android:textAppearance="@style/active_work"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="171dp"
+                android:layout_marginEnd="17dp"
+                android:backgroundTint="#a5c5a6"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/action_image"
+                    android:layout_width="162dp"
+                    android:layout_height="187dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/exercise_fg" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/textColor2"
+                        android:id="@+id/plan_name1"
+                        android:layout_width="145.93dp"
+                        android:layout_height="67.47dp"
+                        android:layout_marginTop="26dp"
+                        android:layout_marginEnd="0.36dp"
+                        android:fontFamily="@font/montserrat_700"
+                        android:gravity="top"
+                        android:includeFontPadding="false"
+                        android:lineSpacingExtra="0sp"
+                        android:text="@string/build_bigge"
+                        android:textAppearance="@style/build_bigge"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/progressPercent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:elevation="2dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:text="@string/progressPercent"
+                        android:textAppearance="@style/progressPercent"
+                        app:layout_constraintLeft_toLeftOf="@id/progress_bar"
+                        app:layout_constraintTop_toTopOf="@id/progress_bar" />
+
+                    <ProgressBar
+                        android:id="@+id/progress_bar"
+                        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                        android:layout_width="80.52dp"
+                        android:layout_height="11.73dp"
+                        android:layout_marginEnd="65.78dp"
+                        android:progress="20"
+                        android:progressDrawable="@drawable/progressbar_bg"
+                        android:progressTint="#C42727"
+                        app:layout_constraintLeft_toLeftOf="@id/plan_name1"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/plan_name1" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:background="@drawable/custom_button_shape"
+                        android:id="@+id/cont"
+                        android:layout_width="83.53dp"
+                        android:layout_height="17dp"
+                        android:layout_marginTop="14dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:gravity="center"
+                        android:padding="0dp"
+                        android:includeFontPadding="false"
+                        android:text="@string/continue_"
+                        android:textAppearance="@style/continue_"
+                        app:layout_constraintLeft_toLeftOf="@id/progress_bar"
+                        app:layout_constraintTop_toBottomOf="@id/progress_bar" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                style="@style/textColor1"
+                android:id="@+id/enhance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/poppins_500"
+                android:text="@string/enhance_you"
+                android:textAppearance="@style/enhance_you"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/card" />
+
+            <TextView
+                android:text="@string/see_all"
+                android:textAppearance="@style/see_all"
+                android:layout_marginTop="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginEnd="17dp"
+                app:layout_constraintTop_toBottomOf="@id/card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/enhance_cardView"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:layout_marginHorizontal="27dp"
+                android:layout_marginTop="12dp"
+                app:cardElevation="0dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/enhance">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rectangle_bg" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/backgroundColor"
+                        android:id="@+id/ic_home_workout"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="15dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_home_workouts" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/accuracy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6.35dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/accuracy"
+                        android:textAppearance="@style/accuracy"
+                        app:layout_constraintLeft_toRightOf="@id/ic_home_workout"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/accuracy_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12.35dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/some_id"
+                        android:textAppearance="@style/some_id"
+                        app:layout_constraintLeft_toRightOf="@id/ic_home_workout"
+                        app:layout_constraintTop_toBottomOf="@id/accuracy" />
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/backgroundColor"
+                        android:id="@+id/ic_weights"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="15dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ic_home_workout">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_weights" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/reps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6.35dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/reps"
+                        android:textAppearance="@style/reps"
+                        app:layout_constraintLeft_toRightOf="@id/ic_weights"
+                        app:layout_constraintTop_toTopOf="@id/ic_weights" />
+
+                    <TextView
+                        android:id="@+id/reps_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12.35dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/reps_id"
+                        android:textAppearance="@style/reps_id"
+                        app:layout_constraintLeft_toRightOf="@id/ic_weights"
+                        app:layout_constraintTop_toBottomOf="@id/reps" />
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/backgroundColor"
+                        android:id="@+id/ic_workout_duration"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="124dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="2dp"
+                            android:src="@drawable/ic_duration" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/workout_duration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6.35dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/workout_dur"
+                        android:textAppearance="@style/workout_dur"
+                        app:layout_constraintLeft_toRightOf="@id/ic_workout_duration"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/workout_duration_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12.35dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/hours"
+                        android:textAppearance="@style/hours"
+                        app:layout_constraintLeft_toRightOf="@id/ic_workout_duration"
+                        app:layout_constraintTop_toBottomOf="@id/workout_duration" />
+
+                    <androidx.cardview.widget.CardView
+                        style="@style/backgroundColor"
+                        android:id="@+id/ic_calorie_burn"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="124dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/ic_workout_duration">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_calorie_burn" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/calories"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6.35dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/calories_bu"
+                        android:textAppearance="@style/calories_bu"
+                        app:layout_constraintLeft_toRightOf="@id/ic_calorie_burn"
+                        app:layout_constraintTop_toTopOf="@id/ic_weights" />
+
+                    <TextView
+                        android:id="@+id/calories_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12.35dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/calories_id"
+                        android:textAppearance="@style/calories_id"
+                        app:layout_constraintLeft_toRightOf="@id/ic_calorie_burn"
+                        app:layout_constraintTop_toBottomOf="@id/calories" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/human_track_card"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginHorizontal="27dp"
+                app:cardElevation="0dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/enhance_cardView">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rectangle_794" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:backgroundTint="@color/white"
+                        android:id="@+id/ic_wheel"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="6dp"
+                        app:cardCornerRadius="25dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginTop="2.5dp"
+                            android:src="@drawable/vector" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        style="@style/textColor1"
+                        android:id="@+id/people_track"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="9dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/people_trac"
+                        android:textAppearance="@style/people_trac"
+                        app:layout_constraintLeft_toRightOf="@id/ic_wheel"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        style="@style/textColor1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:fontFamily="@font/poppins_500"
+                        android:includeFontPadding="false"
+                        android:padding="0dp"
+                        android:text="@string/why_haven_t"
+                        android:textAppearance="@style/why_haven_t"
+                        app:layout_constraintLeft_toRightOf="@id/ic_wheel"
+                        app:layout_constraintTop_toBottomOf="@id/people_track" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                style="@style/textColor1"
+                android:id="@+id/recommend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="27dp"
+                android:fontFamily="@font/poppins_500"
+                android:text="@string/recommended"
+                android:textAppearance="@style/recommended"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/human_track_card" />
+            <TextView
+                android:text="@string/see_all"
+                android:textAppearance="@style/see_all"
+                android:layout_marginTop="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_marginEnd="17dp"
+                app:layout_constraintTop_toBottomOf="@id/human_track_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView_recommend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="17dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recommend" />
+
+            <TextView
+                style="@style/textColor1"
+                android:id="@+id/categories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="27dp"
+                android:fontFamily="@font/poppins_500"
+                android:text="@string/categories"
+                android:textAppearance="@style/categories"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recyclerView_recommend" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/categoriesRecyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="17dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/categories"
+                tools:listitem="@layout/item_categories" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ProgressBar
+                android:id="@+id/loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

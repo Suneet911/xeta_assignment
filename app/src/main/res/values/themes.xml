@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.XetaAssignment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">#27272F</item>
+    </style>
+    
+    <style name="textColor1">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="backgroundColor">
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="bottomNavColor">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
+
+    <style name="Theme.XetaAssignment" parent="Base.Theme.XetaAssignment" />
+</resources>
